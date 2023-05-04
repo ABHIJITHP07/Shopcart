@@ -1,0 +1,1817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2ddea46c4e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./ecart.css">
+</head>
+
+<body>
+    <!-- top navbar -->
+    <div id="a1" style="background-color: black;height: 40px;">
+        <div class="container-fluid">
+            <div class="col-lg-2">
+                <img src="./pics/Screenshot 2023-03-17 235536.png" style="height:40px" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-white p-3">
+        <div class="container-fluid px-4">
+            <a style="text-decoration: none;" class="navbar-brand" style="margin-left: 90px;" href="products"><img
+                    style="height: 45px;" src="./pics/Screenshot 2023-03-18 logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4" style="padding-right: 20px;" >
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Category
+                        </a>
+                        <div class="dropdown-menu" style="width: 400%;">
+
+                            <a href="" style="text-decoration: none;color: black;"><strong>Popular Categories</strong></a>
+                            <ul class="dropdown-menu-section border-top mt-2">
+                                <li class="dropdown-menu-section-item mt-2" style="background-color: aliceblue">
+                                    <div class="section-item" style="display: flex;">
+                                        <img src="./pics/chair.png"  alt="">
+                                        <div class="section-item-name">
+                                            <h6>Furniture</h6>
+                                            <p style="font-size: 10px;">240 items available</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-menu-section-item mt-2" style="background-color: aliceblue">
+                                    <div class="section-item" style="display: flex;">
+                                        <img src="./pics/smallbag.png"  alt="">
+                                        <div class="section-item-name">
+                                            <h6>Handbag</h6>
+                                            <p style="font-size: 10px;">240 items available</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-menu-section-item mt-2" style="background-color: aliceblue">
+                                    <div class="section-item" style="display: flex;">
+                                        <img src="./pics/smallshoe.png"  alt="">
+                                        <div class="section-item-name">
+                                            <h6>Shoe</h6>
+                                            <p style="font-size: 10px;">240 items available</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-menu-section-item mt-2" style="background-color: aliceblue">
+                                    <div class="section-item" style="display: flex;">
+                                        <img src="./pics/smallhead.png"  alt="">
+                                        <div class="section-item-name">
+                                            <h6>Headphone</h6>
+                                            <p style="font-size: 10px;">240 items available</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-menu-section-item mt-2" style="background-color: aliceblue">
+                                    <div class="section-item" style="display: flex;">
+                                        <img src="./pics/smalllap.png"  alt="">
+                                        <div class="section-item-name">
+                                            <h6>Laptop</h6>
+                                            <p style="font-size: 10px;">240 items available</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-menu-section-item mt-2" style="background-color: aliceblue">
+                                    <div class="section-item" style="display: flex;">
+                                        <img src="./pics/smallbbok.png"  alt="">
+                                        <div class="section-item-name">
+                                            <h6>Book</h6>
+                                            <p style="font-size: 10px;">240 items available</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-black" aria-current="page" href="#!">Deals</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="products/add_product">Whats New</a></li>
+                    <li class="nav-item"><a class="nav-link text-black" href="products/add_product">Delivery</a></li>
+                </ul>
+                <form class="d-flex me-5 me-auto"
+                    style="  color: rgb(247, 250, 250);padding: 2px;border: 1px solid rgb(152, 139, 139);border-radius: 25px;"
+                    role="search">
+
+                    <input type="text" style="color: black;" placeholder="Search product">
+                    <button type="submit">Search</button>
+
+                </form>
+
+                <form class="d-flex">
+                    <div class="account" type="submit">
+                        <img src="./pics/user.png" alt="">
+                        <span><a style="text-decoration: none;color: black;margin-left: 5px;" href="">Account</a></span>
+                    </div>
+                </form>
+                <form action="d-flex">
+                    <div class="Cart">
+                        <a href="" style="text-decoration: none;color: black;font-size: 15px;">
+                            <i class="fas fa-shopping-cart ms-3"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </nav>
+
+
+
+    <!-- header -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./pics/background.png" alt="First slide">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- categories -->
+    <div class="py-5">
+        <div class="container px-5">
+            <div class="category_title">
+                <h3 class="section_title px-3 py-2" style="font-weight: bold;">Shop Our Top Categories</h3>
+            </div>
+            <!-- Section-->
+            <div class="container-fluid mt-5">
+                <div class="row  row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center">
+                    <div class="mb-5">
+                        <div class="content">
+                            <img src="./pics/63e8c4e570738029a725e686_Furniture-min.png" class="content_img" alt="">
+                            <h3 class="content_title">Furniture</h3>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <div class="content">
+                            <img src="./pics/63e8c4e52d6553668075697e_hand bag-min.png" class="content_img" alt="">
+                            <h3 class="content_title">Hand Bag</h3>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <div class="content">
+                            <img src="./pics/63e8c4e460afc22b7ea53520_books-min.png" class="content_img" alt="">
+                            <h3 class="content_title">Books</h3>
+                        </div>
+                    </div>
+                    <div class="mb-5">
+                        <div class="content">
+                            <img src="./pics/63e8c4e754ac2e32897cb53b_tech-min.png" class="content_img" alt="">
+                            <h3 class="content_title">Tech</h3>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="content">
+                            <img src="./pics/63e8c4e64b769118272f244f_sneakers-min.png" class="content_img" alt="">
+                            <h3 class="content_title">Sneakers</h3>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="content">
+                            <img src="./pics/63e8c4e71eb4ad6d07e7568f_travel-min.png" class="content_img" alt="">
+                            <h3 class="content_title">Travel</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Best Deals -->
+    <div class="best-deals">
+        <div class="container px-5 mt-5">
+            <div class="category_title">
+                <h3 class="section_title px-3 py-2" style="font-weight: bold;">Todays Best Deal For You</h3>
+            </div>
+            <div class="cards" pb-5>
+                <div class="product-cards mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <div class="card-image">
+                            <img class="card-img-top" src="./pics/63e8c4e563db5507951bbfbe_homepad-mini-min.png"
+                                alt="..." />
+                            <div class="wishlist">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-0">
+                            <div class="product text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="product-name fw-bolder">HomePod mini</h3>
+                                <!-- Product price-->
+                                <div class="product-price">
+                                    <span class="price">$</span>239
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-cards mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <div class="card-image">
+                            <img class="card-img-top" src="./pics/63e8c4e563db5537881bbfcf_instax mini 9-min.png"
+                                alt="..." />
+                            <div class="wishlist">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-0">
+                            <div class="product text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="product-name fw-bolder">Instax mini 9</h3>
+                                <!-- Product price-->
+                                <div class="product-price">
+                                    <span class="price">$</span>99
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-cards mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <div class="card-image">
+                            <img class="card-img-top" src="./pics/63e8c4e48b497e63cc46b800_base camp duffel 02-min.png"
+                                alt="..." />
+                            <div class="wishlist">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-0">
+                            <div class="product text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="product-name fw-bolder">Base Camp Duffle M</h3>
+                                <!-- Product price-->
+                                <div class="product-price">
+                                    <span class="price">$</span>159
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-cards mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <div class="card-image">
+                            <img class="card-img-top" src="./pics/63e8c4e7e006821d3b04db74_Tote Medium-min.png"
+                                alt="..." />
+                            <div class="wishlist">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-0">
+                            <div class="product text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="product-name fw-bolder">Tot e Medium</h3>
+                                <!-- Product price-->
+                                <div class="product-price">
+                                    <span class="price">$</span>239
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-cards mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <div class="card-image">
+                            <img class="card-img-top" src="./pics/63e8c4e54b76914b262f2448_headphone-min.png"
+                                alt="..." />
+                            <div class="wishlist">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-0">
+                            <div class="product text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="product-name fw-bolder">Headphone</h3>
+                                <!-- Product price-->
+                                <div class="product-price">
+                                    <span class="price">$</span>139
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-cards mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <div class="card-image">
+                            <img class="card-img-top" src="./pics/63e8c4e74b769109fd2f245a_tomford watch-min.png"
+                                alt="..." />
+                            <div class="wishlist">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-0">
+                            <div class="product text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="product-name fw-bolder">Tomford Watch</h3>
+                                <!-- Product price-->
+                                <div class="product-price">
+                                    <span class="price">$</span>299
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+   <!-- choose by brand -->
+    <div class="py-5">
+        <div class="container">
+            <div class="category_title">
+                <h3 class="section_title px-2 py-2" style="font-weight: bold;">Choose By Brand</h3>
+            </div>
+            <!-- Section-->
+            <div class="container-fluid mt-5">
+                <div class="row">
+                    <div class="card mb-3 col-6 col-lg-3">
+                        <div class="row" style="display: flex;background-color: #f5f6f6;border-radius: 15px">
+                          <div class="brand col-md-4 p-3">
+                            <img src="./pics/staples.png" class="brand-card-img" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="brand-card-title">Staples</h5>
+                              <p class="brand-card-text">Delivery within 24hrs</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 col-6 col-lg-3">
+                        <div class="row" style="display: flex;background-color: #f5f6f6;border-radius: 15px">
+                          <div class="brand col-md-4 p-3">
+                            <img src="./pics/sprouts.png" class="brand-card-img" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="brand-card-title">Sproutes</h5>
+                              <p class="brand-card-text">Delivery within 24hrs</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 col-6 col-lg-3">
+                        <div class="row" style="display: flex;background-color: #f5f6f6;border-radius: 15px">
+                          <div class="brand col-md-4 p-3">
+                            <img src="./pics/grocery.png" class="brand-card-img" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="brand-card-title">Grocery Outlet</h5>
+                              <p class="brand-card-text">Delivery within 24hrs</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 col-6 col-lg-3">
+                        <div class="row" style="display: flex;background-color: #f5f6f6;border-radius: 15px">
+                          <div class="brand col-md-4 p-3">
+                            <img src="./pics/mollie.png" class="brand-card-img" alt="...">
+                          </div>
+                          <div class=" col-md-8">
+                            <div class="card-body">
+                              <h5 class="brnd-card-title">Mollie Stones</h5>
+                              <p class="brand-card-text">Delivery within 24hrs</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 col-6 col-lg-3">
+                        <div class="row" style="display: flex;background-color: #f5f6f6;border-radius: 15px">
+                          <div class="brand col-md-4 p-3">
+                            <img src="./pics/sports.png" class="brand-card-img" alt="...">
+                          </div>
+                          <div class="col-md-8 p-0">
+                            <div class="card-body">
+                              <h5 class="brand-card-title">Sports Basement</h5>
+                              <p class="brand-card-text">Delivery within 24hrs</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 col-6 col-lg-3">
+                        <div class="row" style="display: flex;background-color: #f5f6f6;border-radius: 15px">
+                          <div class="brand col-md-4 p-3">
+                            <img src="./pics/blue.png" class="brand-card-img" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="brand-card-title">Container Strore</h5>
+                              <p class="brand-card-text">Delivery within 24hrs</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 col-6 col-lg-3">
+                        <div class="row " style="display: flex;background-color: #f5f6f6;border-radius: 15px">
+                          <div class="brand col-md-4 p-3">
+                            <img src="./pics/target.png" class="brand-card-img" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="brand-card-title">Target</h5>
+                              <p class="brand-card-text">Delivery within 24hrs</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 col-6 col-lg-3">
+                        <div class= "row" style="display: flex;background-color: #f5f6f6;border-radius: 15px">
+                          <div class="brand col-md-4 p-3">
+                            <img src="./pics/savemo.png" class="brand-card-img" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="brand-card-title">Bevmo</h5>
+                              <p class="brand-card-text">Delivery within 24hrs</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- offers -->
+    <div class="services">
+        <div class="container px-5 mt-5">
+            <div class="category_title">
+                <h3 class="section_title px-0 py-2" style="font-weight: bold;">Get Upto 70% Off</h3>
+            </div>
+            <div class="row row-cols-2 row-cols-lg-4 mt-5 mb-3" style="display: flex;">
+                <div class="service-card mb-5">
+                    <div class="service">
+                        <div class="offer-card-body">
+                            <h4 class="offer-card-title"><strong>Save</strong></h4>
+                            <h1 style="color: goldenrod"><strong>$100</strong></h1>
+                            <p class="offer-card-text">Explore Our Furniture & Home Furnishing Range</p>
+                        </div>
+                        <div class="serv"><img class="service-card-img-top" src="./pics/sofa.png" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card mb-5">
+                    <div class="service">
+                        <div class="offer-card-body">
+                            <h4 class="offer-card-title"><strong>Save</strong></h4>
+                            <h1 style="color: rgb(216, 45, 19)"><strong>$29</strong></h1>
+                            <p class="offer-card-text">Explore Our Furniture & Home Furnishing Range</p>
+                        </div>
+                        <div class="serv"><img class="service-card-img-top" src="./pics/books.png" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-card mb-5">
+                    <div class="service">
+                        <div class="offer-card-body">
+                            <h4 class="offer-card-title"><strong>Save</strong></h4>
+                            <h1 style="color: rgb(107, 88, 39)"><strong>$67</strong></h1>
+                            <p class="offer-card-text">Explore Our Furniture & Home Furnishing Range</p>
+                        </div>
+                        <div class="serv"><img class="service-card-img-top" src="./pics/hanger.png"
+                                alt="Card image cap"></div>
+                    </div>
+                </div>
+
+                <div class="service-card mb-5">
+                    <div class="service">
+                        <div class="offer-card-body">
+                            <h4 class="offer-card-title"><strong>Save</strong></h4>
+                            <h1 style="color: rgb(45, 36, 13)"><strong>$59</strong></h1>
+                            <p class="offer-card-text">Explore Our Furniture & Home Furnishing Range</p>
+                        </div>
+                        <div class="serv"><img class="service-card-img-top" src="./pics/schoo.png" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Popular products -->
+    <div class="popular-deals">
+        <div class="container px-5 mt-3">
+            <div class="category_title">
+                <h3 class="section_title px-3 py-2" style="font-weight: bold;">Weekly Popular Products</h3>
+            </div>
+            <div class="cards" pb-5>
+                <div class="product-cards mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <div class="card-image">
+                            <img class="card-img-top" src="./pics/63e8c4e54b76914b262f2448_headphone-min.png"
+                                alt="..." />
+                            <div class="wishlist">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-0">
+                            <div class="product text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="product-name fw-bolder">Headphone</h3>
+                                <!-- Product price-->
+                                <div class="product-price">
+                                    <span class="price">$</span>139
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-cards mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <div class="card-image">
+                            <img class="card-img-top" src="./pics/63e8c4e48b497e63cc46b800_base camp duffel 02-min.png"
+                                alt="..." />
+                            <div class="wishlist">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-0">
+                            <div class="product text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="product-name fw-bolder">Base Camp Duffle M</h3>
+                                <!-- Product price-->
+                                <div class="product-price">
+                                    <span class="price">$</span>159
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-cards mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <div class="card-image">
+                            <img class="card-img-top" src="./pics/63e8c4e74b769109fd2f245a_tomford watch-min.png"
+                                alt="..." />
+                            <div class="wishlist">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-0">
+                            <div class="product text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="product-name fw-bolder">Tomford Watch</h3>
+                                <!-- Product price-->
+                                <div class="product-price">
+                                    <span class="price">$</span>299
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-cards mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <div class="card-image">
+                            <img class="card-img-top" src="./pics/63e8c4e5bc6a9ac192b3d597_cabin-min.png" alt="..." />
+                            <div class="wishlist">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-0">
+                            <div class="product text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="product-name fw-bolder">Cabin</h3>
+                                <!-- Product price-->
+                                <div class="product-price">
+                                    <span class="price">$</span>159
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-cards mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <div class="card-image">
+                            <img class="card-img-top"
+                                src="./pics/63e8c4e65cc936826acce6d9_pendleton water bottle-min.png" alt="..." />
+                            <div class="wishlist">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-0">
+                            <div class="product text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="product-name fw-bolder">Water Bottle</h3>
+                                <!-- Product price-->
+                                <div class="product-price">
+                                    <span class="price">$</span>19
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- sale banner -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide mt-5" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./pics/sale.jpg" alt="First slide">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Todays-best-deals -->
+    <div class="Todays-deals">
+        <div class="container px-5 mt-5">
+            <div class="category_title">
+                <h3 class="section_title px-0 py-2" style="font-weight: bold;">Todays Best Deals For You</h3>
+            </div>
+            <div style="margin-top: 30px;gap: 4px;display: inline-block;">
+                <button class="btn btn-outline-success rounded-pill text-dark" style="margin-top: 10px;"
+                    href="#">Gadgets</button>
+                <button class="btn btn-outline-success rounded-pill text-dark " style="margin-top: 10px;"
+                    href="#">Fashion</button>
+                <button class="btn btn-outline-success rounded-pill text-dark" style="margin-top: 10px;"
+                    href="#">Toys</button>
+                <button class="btn btn-outline-success rounded-pill text-dark" style="margin-top: 10px;"
+                    href="#">Education</button>
+                <button class="btn btn-outline-success rounded-pill text-dark" style="margin-top: 10px;"
+                    href="#">Beauty</button>
+                <button class="btn btn-outline-success rounded-pill text-dark" style="margin-top: 10px;"
+                    href="#">Fitness</button>
+                <button class="btn btn-outline-success rounded-pill text-dark" style="margin-top: 10px;"
+                    href="#">Furniture</button>
+                <button class="btn btn-outline-success rounded-pill text-dark" style="margin-top: 10px;"
+                    href="#">Sneaker</button>
+            </div>
+
+            <div class="row row-cols-2 row-cols-lg-4 justify-content-center mt-5 ">
+
+                <div class="object-cards mb-5">
+                    <div class="object h-100">
+                        <!-- Product image-->
+                        <div class="object-image">
+                            <img class="object-img-top" src="./pics/63e8c4e68b497e229146b818_leptop sleeve-min.png"
+                                alt="..." />
+                            <div class="wishlist2">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="object-body p-0">
+                            <div class="object text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="object-name fw-bolder">Laptop sleeve MacBook</h3>
+                                <!-- Product price-->
+                                <div class="object-price">
+                                    <span class="price">$</span>59
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Organic Cotton, fairtrade certified</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="object-cards mb-5">
+                    <div class="object h-100">
+                        <!-- Product image-->
+                        <div class="object-image">
+                            <img class="object-img-top" src="./pics/63e8c4e4aed3c6720e446aa1_airpod max-min.png"
+                                alt="..." />
+                            <div class="wishlist2">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="object-body p-0">
+                            <div class="object text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="object-name fw-bolder">AirPods Max</h3>
+                                <!-- Product price-->
+                                <div class="object-price">
+                                    <span class="price">$</span>559
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">A perfect balance of high-fidelity audio</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="object-cards mb-5">
+                    <div class="object h-100">
+                        <!-- Product image-->
+                        <div class="object-image">
+                            <img class="object-img-top"
+                                src="./pics/63e8c4e55cc9361a8ecce6d4_flower leptop sleeve-min.png" alt="..." />
+                            <div class="wishlist2">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="object-body p-0">
+                            <div class="object text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="object-name fw-bolder">Flower Laptop Sleeve</h3>
+                                <!-- Product price-->
+                                <div class="object-price">
+                                    <span class="price">$</span>39
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">15 in. x 10 in. -Flap top closure</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="object-cards mb-5">
+                    <div class="object h-100">
+                        <!-- Product image-->
+                        <div class="object-image">
+                            <img class="object-img-top" src="./pics/63e8c4e78b497e3a5646b82f_water pot-min.png"
+                                alt="..." />
+                            <div class="wishlist2">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="object-body p-0">
+                            <div class="object text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="object-name fw-bolder">Supreme Water Bottle</h3>
+                                <!-- Product price-->
+                                <div class="object-price">
+                                    <span class="price">$</span>19
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="object-cards mb-5">
+                    <div class="object h-100">
+                        <!-- Product image-->
+                        <div class="object-image">
+                            <img class="object-img-top"
+                                src="./pics/63e8c4e563db5560c31bbfce_leptop sleeve macbook-min.png" alt="..." />
+                            <div class="wishlist2">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="object-body p-0">
+                            <div class="object text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="object-name fw-bolder">Laptop sleeve MacBook</h3>
+                                <!-- Product price-->
+                                <div class="object-price">
+                                    <span class="price">$</span>59
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Organic Cotton, fairtrade certified</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="object-cards mb-5">
+                    <div class="object h-100">
+                        <!-- Product image-->
+                        <div class="object-image">
+                            <img class="object-img-top" src="./pics/63e8c4e61eb4ad4af6e75689_macbook 13-min.png"
+                                alt="..." />
+                            <div class="wishlist2">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="object-body p-0">
+                            <div class="object text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="object-name fw-bolder">Macbook pro 13"</h3>
+                                <!-- Product price-->
+                                <div class="object-price">
+                                    <span class="price">$</span>1099
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">256, 8 core GPU, 8 GB</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="object-cards mb-5">
+                    <div class="object h-100">
+                        <!-- Product image-->
+                        <div class="object-image">
+                            <img class="object-img-top" src="./pics/63e8c4e563db5507951bbfbe_homepad-mini-min.png"
+                                alt="..." />
+                            <div class="wishlist2">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="object-body p-0">
+                            <div class="object text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="object-name fw-bolder">HomePod mini</h3>
+                                <!-- Product price-->
+                                <div class="object-price">
+                                    <span class="price">$</span>59
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">5 colours available</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="object-cards mb-5">
+                    <div class="object h-100">
+                        <!-- Product image-->
+                        <div class="object-image">
+                            <img class="object-img-top" src="./pics/63e8c4e64bd907adafd35b46_ipad mini-min.png"
+                                alt="..." />
+                            <div class="wishlist2">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="object-body p-0">
+                            <div class="object text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="object-name fw-bolder">Ipad Mini</h3>
+                                <!-- Product price-->
+                                <div class="object-price">
+                                    <span class="price">$</span>559
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Cash back banner -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide mt-5" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./pics/cash-back-credit-cards-banner.webp" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="font-size: 100px;">Cash Back 5%</h1>
+                    <h2><a href="" style="text-decoration: none;color: white;">on Shopcart.com</a></h2>
+                    <div class="carousel-action pb-2">
+                        <div class="carousel-text mt-4"><a class="btn btn-warning btn-outline-success rounded-pill"
+                                href="#">Read More</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Most Selling products -->
+    <div class="most-deals">
+        <div class="container px-5 mt-5">
+            <div class="category_title">
+                <h3 class="section_title px-3 py-2" style="font-weight: bold;">Most Selling Products</h3>
+            </div>
+            <div class="cards" pb-5>
+                <div class="product-cards mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <div class="card-image">
+                            <img class="card-img-top" src="./pics/63e8c4e6eaf85336ce58cf03_instax mini 11-min.png"
+                                alt="..." />
+                            <div class="wishlist">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-0">
+                            <div class="product text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="product-name fw-bolder">Instax Mini 11</h3>
+                                <!-- Product price-->
+                                <div class="product-price">
+                                    <span class="price">$</span>89
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-cards mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <div class="card-image">
+                            <img class="card-img-top" src="./pics/63e8c4e74b76916e072f2466_watch-min.png" alt="..." />
+                            <div class="wishlist">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-0">
+                            <div class="product text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="product-name fw-bolder">Hand Watch</h3>
+                                <!-- Product price-->
+                                <div class="product-price">
+                                    <span class="price">$</span>59
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-cards mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <div class="card-image">
+                            <img class="card-img-top" src="./pics/63e8c4e4037f3ba53bcf2021_adidas sneakers-min.png"
+                                alt="..." />
+                            <div class="wishlist">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-0">
+                            <div class="product text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="product-name fw-bolder">Adidas Sneakers</h3>
+                                <!-- Product price-->
+                                <div class="product-price">
+                                    <span class="price">$</span>159
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-cards mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <div class="card-image">
+                            <img class="card-img-top" src="./pics/63e8c4e5bc6a9ac192b3d597_cabin-min.png" alt="..." />
+                            <div class="wishlist">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-0">
+                            <div class="product text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="product-name fw-bolder">Cabin</h3>
+                                <!-- Product price-->
+                                <div class="product-price">
+                                    <span class="price">$</span>159
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-cards mb-5">
+                    <div class="card h-100">
+                        <!-- Product image-->
+                        <div class="card-image">
+                            <img class="card-img-top"
+                                src="./pics/63e8c4e65cc936826acce6d9_pendleton water bottle-min.png" alt="..." />
+                            <div class="wishlist">
+                                <img class="wishlist-icon" src="./pics/wishlist icon.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- Product details-->
+                        <div class="card-body p-0">
+                            <div class="product text-dark" style="display: flex;justify-content: space-between;">
+                                <!-- Product name-->
+                                <h3 class="product-name fw-bolder">Water Bottle</h3>
+                                <!-- Product price-->
+                                <div class="product-price">
+                                    <span class="price">$</span>19
+                                    <span class="price">.00</span>
+                                </div>
+                            </div>
+                            <div class="product-colour">Table with air purifier, stained veneer/black</div>
+                            <div class="product-review"
+                                style="display: flex;align-items: center;font-size: 13px;margin-bottom: 15px;">
+                                <div class="star" style="line-height: 14px"><i class="fa-solid fa-star"
+                                        style="color: #f4ed2a;"><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i><i class="fa-solid fa-star"
+                                            style="color: #f4ed2a;"></i></i>
+                                </div>
+                                <div class="rating">(121)</div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="product-action pb-2">
+                                <div class="text"><a class="btn btn-outline-success rounded-pill mt-auto" href="#">Add
+                                        to Cart</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Best selling stores -->
+    <div class="Best-Sellers">
+        <div class="container px-5 mt-5">
+            <div class="category_title">
+                <h3 class="section_title px-0 py-2" style="font-weight: bold;">Best Selling Store</h3>
+            </div>
+            <div class="row row-cols-2 row-cols-lg-4 justify-content-center mt-5 ">
+
+                <div class="seller-cards mb-5">
+                    <div class="seller-box h-100" style="position: relative;">
+                        <!-- Product image-->
+                        <div class="seller">
+                            <img class="seller-img-top" src="./pics/bags01.png" alt="">
+                        </div>
+                        <!-- Product details-->
+                        <div class="seller-body">
+                            <div class="seller-logo">
+                                <img src="./pics/staples.png" alt="">
+                            </div>
+                            <div class="object text-dark">
+                                <!-- Product name-->
+                                <h3 class="object-name fw-bolder">Staples</h3>
+                            </div>
+                            <div class="product-colour">Bag*Perfume</div>
+                            <div class="product-colour">Delivery with in 24 hours</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="seller-cards mb-5">
+                    <div class="seller-box h-100" style="position: relative;">
+                        <!-- Product image-->
+                        <div class="seller">
+                            <img class="seller-img-top" src="./pics/phone11.png" alt="">
+                        </div>
+                        <!-- Product details-->
+                        <div class="seller-body">
+                            <div class="seller-logo">
+                                <img src="./pics/save delivery.png" alt="">
+                            </div>
+                            <div class="object text-dark">
+                                <!-- Product name-->
+                                <h3 class="object-name fw-bolder">Now Delivery</h3>
+                            </div>
+                            <div class="product-colour">Bag*Perfume</div>
+                            <div class="product-colour">Delivery with in 24 hours</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="seller-cards mb-5">
+                    <div class="seller-box h-100" style="position: relative;">
+                        <!-- Product image-->
+                        <div class="seller">
+                            <img class="seller-img-top" src="./pics/handwash.png" alt="">
+                        </div>
+                        <!-- Product details-->
+                        <div class="seller-body">
+                            <div class="seller-logo">
+                                <img src="./pics/savemo.png" alt="">
+                            </div>
+                            <div class="object text-dark"">
+                                <!-- Product name-->
+                                <h3 class=" object-name fw-bolder">Bevmo</h3>
+                            </div>
+                            <div class="product-colour">Bag*Perfume</div>
+                            <div class="product-colour">Delivery with in 24 hours</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="seller-cards mb-5">
+                    <div class="seller-box h-100" style="position: relative;">
+                        <!-- Product image-->
+                        <div class="seller">
+                            <img class="seller-img-top" src="./pics/shoes.png" alt="">
+                        </div>
+                        <!-- Product details-->
+                        <div class="seller-body">
+                            <div class="seller-logo">
+                                <img src="./pics/q.png" alt="">
+                            </div>
+                            <div class="object text-dark"">
+                                <!-- Product name-->
+                                <h3 class=" object-name fw-bolder">Quickly</h3>
+                            </div>
+                            <div class="product-colour">Bag*Perfume</div>
+                            <div class="product-colour">Delivery with in 24 hours</div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- services -->
+    <div class="services">
+        <div class="container px-5 mt-5">
+            <div class="category_title">
+                <h3 class="section_title px-0 py-2" style="font-weight: bold;">Services To Help You Shop</h3>
+            </div>
+            <div class="row row-cols-2 row-cols-lg-3 mt-5 mb-5" style="display: flex;">
+                <div class="service-card mb-5">
+                    <div class="service">
+                        <div class="service-card-body">
+                            <h4 class="service-card-title"><strong>Frequently Asked Questions</strong></h4>
+                            <p class="service-card-text">Updates on safe Shopping in our Stores</p>
+                        </div>
+                        <div class="serv"><img class="service-card-img-top" src="./pics/mother.png"
+                                alt="Card image cap"></div>
+                    </div>
+                </div>
+                <div class="service-card mb-5">
+                    <div class="service">
+                        <div class="service-card-body">
+                            <h4 class="service-card-title"><strong>Online Payment Process</strong></h4>
+                            <p class="service-card-text">Updates on safe Shopping in our Stores</p>
+                        </div>
+                        <div class="serv"><img class="service-card-img-top" src="./pics/contacts.png"
+                                alt="Card image cap"></div>
+                    </div>
+                </div>
+
+                <div class="service-card mb-5">
+                    <div class="service">
+                        <div class="service-card-body">
+                            <h4 class="service-card-title"><strong>Home Delivery Options</strong></h4>
+                            <p class="service-card-text">Updates on safe Shopping in our Stores</p>
+                        </div>
+                        <div class="serv"><img class="service-card-img-top" src="./pics/homedelivery.png"
+                                alt="Card image cap"></div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <div class="col-xl-12" style="background-color:white;">
+        <div class="container border-top">
+            <div class="row" style="padding-bottom: 40px;padding-top: 70px;">
+                <nav class="menu_table col-8 col-lg-4">
+                    <img style="margin-bottom: 20px;" src="./pics/63e86ab4c21faa7bc0bd90dd_Logo.svg" alt="">
+                    <div class="mb-40">
+                        <p style="font-size: 16px;">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint. Velit officia consequat duis enim velit mollit.</p>
+                    </div>
+                    <div class="payments">
+                        <h5 style="margin-bottom: 20px;"><strong>Accepted Payments</strong></h5>
+                        <img src="./pics/payments.jpg" alt="">
+                    </div>
+
+                </nav>
+
+                <nav class="menu_table col-4 col-lg-2">
+                    <h4 style="padding-left: 20px;">Department</h4>
+                    <ul style="list-style-type: none;">
+                        <li>
+                            <a href="#" style="text-decoration: none;">Fashion</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;">Education Product</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;">Beverages</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;">Frozen Food</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;">Office Supplies</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;">Organic Groceries</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;">Holiday Packages</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;">toys</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;">books</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;">sneakers</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <nav class="menu_table col-4 col-lg-2">
+                    <h4 style="padding-left: 20px;">About Us</h4>
+                    <ul style="list-style-type: none;">
+                        <li>
+                            <a href="#" style="text-decoration: none;">About Shopcart</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;">careers</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;">news & blog</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;">help</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;">Shop by location</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;">Ideas & guides</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;">Press Center</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;">Affiliate & Partners</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <nav class="menu_table col-4 col-lg-2">
+                    <h4 style="padding-left: 20px;">Services</h4>
+                    <ul style="list-style-type: none;">
+                        <li>
+                            <a href="#" style="text-decoration: none;"> Gift card</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;"> Moboile App</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;"> Shipping & Delivery </a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;"> Order Pickup</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;"> Account Signup</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <nav class="menu_table col-4 col-lg-2">
+                    <h4 style="padding-left: 25px;">Help</h4>
+                    <ul style="list-style-type: none;">
+                        <li>
+                            <a href="#" style="text-decoration: none;"> Shopcart help</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;"> Returns</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;"> Track orders </a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;"> Contact us</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none;"> Feedback</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer col-lg-12 border-top" style="padding-top: 25px;padding-bottom: 9px">
+        <div class="container">
+            <div class="row">
+                <div class="footer_left col-lg-5 " style="display: flex;">
+                    <div class="col-4">
+                        <p><i class="fa-solid fa-bag-shopping" style="color: #070808"></i> <a href=""
+                                style="text-decoration: none;color: black;"> Become Seller</a></p>
+                    </div>
+                    <div class="col-4">
+                        <p><i class="fa-solid fa-gift" style="color: #070808;"></i><a href=""
+                                style="text-decoration: none;color: black;"> Gift Cards</a></p>
+                    </div>
+                    <div class="col-4">
+                        <p><i class="fa-regular fa-circle-question" style="color: #070808;"></i><a href=""
+                                style="text-decoration: none;color: black;"> Help Center</a></p>
+                    </div>
+                </div>
+                <div class="footer_left col-lg-2 ">
+                    <p>Terms & Service</p>
+                </div>
+                <div class="footer_left col-lg-2 ">
+                    <p>Privacy & Policy</p>
+                </div>
+                <div class="footer_right col-lg-3 ">
+                    <p>All Rights Reserved Musemind | 2022</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
